@@ -1,0 +1,23 @@
+the first thing I had to do was figure out how to undo all the changes to my public_html file that I 
+had done for a full stack lab from new beginnings.  I tried to just move all the old files out of 
+the foler and start over, but then I got server errors.  After reading the readme for the lab I 
+realized there was dot file that was handing control of the backend server, so I removed that to 
+restore the directory to its original static state 
+
+I wanted to use boot strap to make it look a little more polished; I like how the fonts and everything 
+look in bootstrap, because it makes the webpage look like it wasn't made in the 90's. I coppied and 
+I pasted the links from the head sections of our labs, and then I had hello world in helvetica displayed
+on my webpage.  Perhaps all the helvetica will start look very dated and we will all go back to times
+new roman for that vintage 90's look.  But for now I like it.
+
+making the navabar
+problem: cant see text inside navbar
+solution: bg-color changes the background color but not sure what what navbar-dark is doing.  Sovled the 
+problem by having the text in <a> </a> tags.  bootrap then colors it appropriately 
+
+problem: links are on top of each other rather than side to side encountered same problem in homework
+solution: use navbar-expand class for div inside navbar container.  I didn't really want it to collapse. 
+although I'm not exactly sure what the colapsable navbar does.  most of the examples on the website include
+collapsable class, but I think I want something more basic
+
+navbar list elements- actice makes them light up when you hover.  keeping this.
