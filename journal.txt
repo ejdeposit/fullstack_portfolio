@@ -21,3 +21,22 @@ although I'm not exactly sure what the colapsable navbar does.  most of the exam
 collapsable class, but I think I want something more basic
 
 navbar list elements- actice makes them light up when you hover.  keeping this.
+
+body
+problem: trying to add a picture but just shows icon that says responsive image
+Notes: downloaded it to my mac and them scp to get it into public html folder.  no change.  
+just using src=http://web.cecs.pdx.edu/~edeposit/grass.jpg.  looked at network tab of developers tools,
+and there is a 404 not found for the image.  
+Solution: I just used the file name as the src assuming it would fetch it from the current directory.  
+
+adding a second page
+problem: page would load
+Notes: i tried just http://web.cecs.pdx.edu/~edeposit/aboutme/, but nothing happend.  then I tried
+./aboutme/ because I was thinking it would work the same way as the picture.  Then I looked at some command line 
+isntructions about how to make webpage for some other schools public_html folder and found just the information
+which is just he sort of instructions I needed.
+http://mason.gmu.edu/~llmiller/notes/second.html:
+
+problem: image took up whole page
+solution: put it in div and add class img-fluid so it spans accross parent div and no farther
+
